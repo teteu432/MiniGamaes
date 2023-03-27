@@ -23,10 +23,14 @@ namespace Minigames.Modelo
             }
             return tem;
         }
-        public string cadastrar(string email, string senha, string confSenha) 
+        public string cadastrar(string Username, string Password, string confSenha) 
         {
             LoginDaoComandos loginDao = new LoginDaoComandos();
-            this.mensagem = loginDao.cadastrar(email, senha, confSenha);
+            this.mensagem = loginDao.cadastrar(Username, Password, confSenha);
+            if(loginDao.tem) //a mensagem que vai vir é de sucesso
+            {
+                this.tem = true;    
+            }
             return mensagem;
         }
         

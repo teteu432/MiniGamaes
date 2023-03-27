@@ -1,6 +1,6 @@
 ﻿namespace Minigames.Aprentação
 {
-    partial class Sorteio
+    partial class Adivinhe
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Sorteio
+            // Adivinhe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(485, 360);
-            this.Name = "Sorteio";
+            this.Name = "Adivinhe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sorteio";
+            this.Text = "Adivinhe um número";
             this.ResumeLayout(false);
 
         }

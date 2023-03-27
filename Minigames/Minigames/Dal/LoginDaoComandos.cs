@@ -46,24 +46,31 @@ namespace Minigames.Dal
         }
         
 
-        public string cadastrar(string email, string senha, string confSenha)
-        {   //comandos para inserir
-            if (senha.Equals(confSenha))
+        public string cadastrar(string Username, string Password, string confSenha)
+        {   
+            tem = false;
+            //comandos para inserir
+            if (Password.Equals(confSenha))
             {
-                cmd.CommandText = "insert into loginss(@e, @s);";
-                cmd.Parameters.AddWithValue("@e", email);
-                cmd.Parameters.AddWithValue("@s", senha);
+                cmd.CommandText = "insert into Usuario(@e, @s);";
+                cmd.Parameters.AddWithValue("@e", Username);
+                cmd.Parameters.AddWithValue("@s", Password);
 
                 try
                 {
                     cmd.Connection = con.conectar();
                     cmd.ExecuteNonQuery();
                     con.desconectar();
+                    this.mensagem = "cadastrado com Sucesso!";
+                    tem = true;
                 }
                 catch (SqlException)
                 {
-                    this.mensagem = "erro com Banco de Dados";
+                    this.mensagem = "Erro com Banco de Dados!";
                 }
+            }else
+            {
+                this.mensagem = "senhas não correspondem!";
             }
             return mensagem;
         }

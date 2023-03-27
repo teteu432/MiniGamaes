@@ -54,6 +54,7 @@
             this.Cadastrar.TabIndex = 1;
             this.Cadastrar.Text = "cadastrar";
             this.Cadastrar.UseVisualStyleBackColor = true;
+            this.Cadastrar.Click += new System.EventHandler(this.Cadastrar_Click);
             // 
             // email1
             // 

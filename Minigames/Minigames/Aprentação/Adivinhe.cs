@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Minigames.Aprentação
 {
-    public partial class Sorteio : Form
+    public partial class Adivinhe : Form
     {
-        public Sorteio()
+        public Adivinhe()
         {
             InitializeComponent();
         }
