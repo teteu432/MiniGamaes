@@ -1,6 +1,6 @@
 ﻿namespace Minigames
 {
-    partial class Form1
+    partial class telaDeLogin
     {
         /// <summary>
         /// Variável de designer necessária.

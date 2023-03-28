@@ -72,11 +72,11 @@
     </Compile>
     <Compile Include="Dal\conexao.cs" />
     <Compile Include="Dal\LoginDaoComandos.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="telaDeLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="telaDeLogin.Designer.cs">
+      <DependentUpon>telaDeLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Controle.cs" />
     <Compile Include="Program.cs" />
@@ -93,8 +93,8 @@
     <EmbeddedResource Include="Aprentação\Adivinhe.resx">
       <DependentUpon>Adivinhe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="telaDeLogin.resx">
+      <DependentUpon>telaDeLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

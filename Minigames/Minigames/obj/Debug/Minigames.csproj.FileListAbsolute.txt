@@ -26,3 +26,18 @@ C:\Users\Intel\Source\Repos\MiniGamaes\Minigames\Minigames\obj\Debug\Minigames.p
 C:\Users\Intel\Source\Repos\MiniGamaes\Minigames\Minigames\bin\Debug\Minigames.exe.config
 C:\Users\Intel\Source\Repos\MiniGamaes\Minigames\Minigames\bin\Debug\Minigames.exe
 C:\Users\Intel\Source\Repos\MiniGamaes\Minigames\Minigames\bin\Debug\Minigames.pdb
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\bin\Debug\Minigames.exe.config
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\bin\Debug\Minigames.exe
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\bin\Debug\Minigames.pdb
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.csproj.AssemblyReference.cache
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.csproj.SuggestedBindingRedirects.cache
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.Aprentação.cadastrese.resources
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.Aprentação.Form1.resources
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.Aprentação.MiniJogos.resources
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.Aprentação.Adivinhe.resources
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.Properties.Resources.resources
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.csproj.GenerateResource.cache
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.csproj.CoreCompileInputs.cache
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.exe
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.pdb
+C:\Users\Intel\Desktop\meus projetos\GitMiniGames\Minigames\Minigames\obj\Debug\Minigames.telaDeLogin.resources

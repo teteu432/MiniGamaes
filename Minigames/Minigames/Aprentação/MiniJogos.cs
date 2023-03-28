@@ -30,7 +30,7 @@ namespace Minigames.Aprentação
 
         private void AbrirJanela(object obj)
         {
-            Application.Run(new cadastrese());
+            Application.Run(new Adivinhe());
         }
 
         private void jogo2_Click(object sender, EventArgs e)

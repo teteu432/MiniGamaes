@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.confSenha = new System.Windows.Forms.TextBox();
             this.senha1 = new System.Windows.Forms.TextBox();
+            this.VoltarMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -48,7 +49,7 @@
             // 
             // Cadastrar
             // 
-            this.Cadastrar.Location = new System.Drawing.Point(123, 229);
+            this.Cadastrar.Location = new System.Drawing.Point(154, 200);
             this.Cadastrar.Name = "Cadastrar";
             this.Cadastrar.Size = new System.Drawing.Size(75, 23);
             this.Cadastrar.TabIndex = 1;
@@ -62,6 +63,7 @@
             this.email1.Name = "email1";
             this.email1.Size = new System.Drawing.Size(158, 20);
             this.email1.TabIndex = 2;
+            this.email1.TextChanged += new System.EventHandler(this.email1_TextChanged);
             // 
             // label2
             // 
@@ -95,11 +97,22 @@
             this.senha1.Size = new System.Drawing.Size(88, 20);
             this.senha1.TabIndex = 6;
             // 
+            // VoltarMenu
+            // 
+            this.VoltarMenu.Location = new System.Drawing.Point(154, 256);
+            this.VoltarMenu.Name = "VoltarMenu";
+            this.VoltarMenu.Size = new System.Drawing.Size(75, 23);
+            this.VoltarMenu.TabIndex = 7;
+            this.VoltarMenu.Text = "Voltar";
+            this.VoltarMenu.UseVisualStyleBackColor = true;
+            this.VoltarMenu.Click += new System.EventHandler(this.VoltarMenu_Click);
+            // 
             // cadastrese
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(402, 291);
+            this.Controls.Add(this.VoltarMenu);
             this.Controls.Add(this.senha1);
             this.Controls.Add(this.confSenha);
             this.Controls.Add(this.label3);
@@ -125,5 +138,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox confSenha;
         private System.Windows.Forms.TextBox senha1;
+        private System.Windows.Forms.Button VoltarMenu;
     }
 }

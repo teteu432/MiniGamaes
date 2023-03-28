@@ -52,7 +52,7 @@ namespace Minigames.Dal
             //comandos para inserir
             if (Password.Equals(confSenha))
             {
-                cmd.CommandText = "insert into Usuario(@e, @s);";
+                cmd.CommandText = "insert into Usuario values(@e, @s);";
                 cmd.Parameters.AddWithValue("@e", Username);
                 cmd.Parameters.AddWithValue("@s", Password);
 

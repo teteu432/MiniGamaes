@@ -13,11 +13,11 @@ using Minigames.Modelo;
 
 namespace Minigames
 {
-    public partial class Form1 : Form
+    public partial class telaDeLogin : Form
     {
         Thread t1;
         Thread t2;
-        public Form1()
+        public telaDeLogin()
         {
             InitializeComponent();
         }

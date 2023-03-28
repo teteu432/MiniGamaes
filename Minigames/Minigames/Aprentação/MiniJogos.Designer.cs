@@ -37,20 +37,20 @@
             // Jogo1
             // 
             this.Jogo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jogo1.Location = new System.Drawing.Point(70, 125);
+            this.Jogo1.Location = new System.Drawing.Point(163, 85);
             this.Jogo1.Name = "Jogo1";
-            this.Jogo1.Size = new System.Drawing.Size(235, 118);
+            this.Jogo1.Size = new System.Drawing.Size(217, 92);
             this.Jogo1.TabIndex = 0;
-            this.Jogo1.Text = "Sortei";
+            this.Jogo1.Text = "Adivinhe \r\no número!";
             this.Jogo1.UseVisualStyleBackColor = true;
             this.Jogo1.Click += new System.EventHandler(this.Jogo1_Click);
             // 
             // jogo2
             // 
             this.jogo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jogo2.Location = new System.Drawing.Point(418, 125);
+            this.jogo2.Location = new System.Drawing.Point(408, 85);
             this.jogo2.Name = "jogo2";
-            this.jogo2.Size = new System.Drawing.Size(235, 118);
+            this.jogo2.Size = new System.Drawing.Size(217, 92);
             this.jogo2.TabIndex = 1;
             this.jogo2.Text = "Em breve";
             this.jogo2.UseVisualStyleBackColor = true;
@@ -59,9 +59,9 @@
             // jogo3
             // 
             this.jogo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jogo3.Location = new System.Drawing.Point(70, 282);
+            this.jogo3.Location = new System.Drawing.Point(163, 223);
             this.jogo3.Name = "jogo3";
-            this.jogo3.Size = new System.Drawing.Size(235, 118);
+            this.jogo3.Size = new System.Drawing.Size(217, 91);
             this.jogo3.TabIndex = 2;
             this.jogo3.Text = "Em breve";
             this.jogo3.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@
             // jogo4
             // 
             this.jogo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jogo4.Location = new System.Drawing.Point(418, 282);
+            this.jogo4.Location = new System.Drawing.Point(408, 223);
             this.jogo4.Name = "jogo4";
-            this.jogo4.Size = new System.Drawing.Size(235, 118);
+            this.jogo4.Size = new System.Drawing.Size(217, 91);
             this.jogo4.TabIndex = 3;
             this.jogo4.Text = "Em breve";
             this.jogo4.UseVisualStyleBackColor = true;
